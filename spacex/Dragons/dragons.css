@@ -1,0 +1,84 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(32, 30, 30);
+  font-family: Inter,sans-serif;
+}
+ul {
+  list-style: none;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li {
+  margin: 0 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.pageName{
+  color: #Ffffff;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 4.75rem;
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.card{
+  padding-top: 75px;
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  justify-content: space-evenly;
+  color: #fff;
+  margin-bottom: 100px;
+
+}
+.card-body{
+  width: 600px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #0f0f0f;
+  margin-right: 30px;
+}
+.card-body img{
+  width: 500px;
+  height: 500px;
+  background-size: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.button{
+  width: 20px;
+  height: 20px;
+}
+.dragon-info{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
